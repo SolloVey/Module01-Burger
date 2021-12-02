@@ -18,7 +18,7 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding-top: 26px;
+	padding-top: 20px;
 	padding-bottom: 25px;
 }
 
@@ -32,7 +32,7 @@ header {
 }
 
 nav {
-	padding-top: 0;
+	padding-top: 11px;
 	padding-right: 100px;
 }
 
@@ -108,8 +108,8 @@ nav {
 	background-image: url(../images/bg.jpg);
 	background-size: cover;
 	background-position: center center;
-	padding: 142px 0;
-	margin-bottom: 140px;
+	padding: 140px 0;
+	margin-bottom: 138px;
 }
 
 .breadcrumbs {
@@ -203,7 +203,7 @@ h2 {
 	font-size: 14px;
     padding: 5px 0px;
     width: 95px;
-    margin-bottom: 8px;
+    margin-bottom: 11px;
 }
 
 .banner-text {
@@ -213,7 +213,7 @@ h2 {
 	line-height: 1.5;
 	color: #FAF9F9;
 	max-width: 353px;
-	padding-bottom: 22px;
+	padding-bottom: 19px;
 }
 
 .banner-link {
@@ -228,5 +228,169 @@ h2 {
 	border-radius: 5px;
 	padding: 20px 25px;
 }
+
+.extra-menu {
+	margin-top: 73px;
+	margin-bottom: 140px;
+}
+
+.menu-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.extra-menu-footer {
+	margin-bottom: 36px;
+}
+
+.menu-title {
+	color: #1B2A49;
+	font-weight: 700;
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+.menu-select {
+	border: 1px solid #DEDEDE;
+	padding: 13px 30px;
+	border-radius: 22px;
+	color: #443737;
+	font-size: 15px;
+	appearance: none;
+	flex-basis: 279px;
+	background-image: url(../images/arrow.svg);
+	background-size: 12.79px 7.75px;
+	background-repeat: no-repeat;
+	background-position: 89% center;
+	margin-bottom: -5px;
+}
+
+.menu-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.menu-grid-item {
+	text-align: center;
+	margin-bottom: 29px;
+}
+
+.menu-grid-cover {
+	width: 100%;
+	height: 430px;
+	position: relative;
+	overflow: hidden;
+}
+
+.menu-grid-cover img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+	width: 100%;
+	height: 430px;
+} 
+
+.menu-grid-title {
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 1.8;
+	color: #1B2A49;
+	margin-top: 12px;
+	margin-bottom: 0;
+}
+
+.menu-grid-price {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2;
+	color: #979797;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+/*Первый вариант верстки кнопки "КУПИТЬ" начало 317стр. конец 336стр.*/
+
+/*.menu-grid-btn {
+	background-image: url(../images/cart-menu.svg);
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	background-color: #FBB731;
+	width: 152px;
+	height: 38px;
+	border: none;
+	border-radius: 5px;
+	background-position: 22% center;
+	cursor: pointer;
+}
+
+.menu-grid-text {
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #1E2F40;
+	padding: 10px 30px 10px 52px;
+}*/
+
+/*Второй вариант верстки кнопки "КУПИТЬ"  начало 340стр. конец 368стр.*/
+
+.menu-grid-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    margin: 0 auto;
+    cursor: pointer;
+	background-color: #FBB731;
+    border: none;
+    border-radius: 5px;
+    width: 152px;
+}
+
+.menu-grid-icon {
+	display: block;
+	background-image: url(../images/cart-menu.svg);
+	background-repeat: no-repeat;
+	width: 18px;
+    height: 18px;
+}
+
+.menu-grid-text {
+	display: block;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #1E2F40;
+	padding: 12px 7px 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
