@@ -265,6 +265,7 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: 89% center;
 	margin-bottom: -5px;
+	outline: none;
 }
 
 .menu-grid {
