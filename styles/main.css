@@ -22,6 +22,13 @@ header {
 	padding-bottom: 25px;
 }
 
+.header-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: 77%;
+}
+
 .header-logo {
 	display: block;
 	background-image: url(../images/logo.svg);
@@ -226,12 +233,18 @@ h2 {
 	background-color: #FBB731;
 	width: 170px;
 	border-radius: 5px;
-	padding: 20px 25px;
+	padding: 18px 24px;
+	border: 1px solid #FBB731;
+}
+
+.banner-link:hover {
+	background-color: transparent;
+	color: #FBB731;
 }
 
 .extra-menu {
 	margin-top: 73px;
-	margin-bottom: 140px;
+	margin-bottom: 110px;
 }
 
 .menu-header {
@@ -314,31 +327,6 @@ h2 {
 	margin-bottom: 20px;
 }
 
-/*Первый вариант верстки кнопки "КУПИТЬ" начало 317стр. конец 336стр.*/
-
-/*.menu-grid-btn {
-	background-image: url(../images/cart-menu.svg);
-	background-repeat: no-repeat;
-	background-size: 18px 18px;
-	background-color: #FBB731;
-	width: 152px;
-	height: 38px;
-	border: none;
-	border-radius: 5px;
-	background-position: 22% center;
-	cursor: pointer;
-}
-
-.menu-grid-text {
-	font-weight: 700;
-	font-size: 14px;
-	text-transform: uppercase;
-	color: #1E2F40;
-	padding: 10px 30px 10px 52px;
-}*/
-
-/*Второй вариант верстки кнопки "КУПИТЬ"  начало 340стр. конец 368стр.*/
-
 .menu-grid-btn {
     display: flex;
     justify-content: center;
@@ -350,6 +338,11 @@ h2 {
     border: none;
     border-radius: 5px;
     width: 152px;
+    cursor: default;
+}
+
+.menu-grid-btn:hover {
+	background-color: #F37335;
 }
 
 .menu-grid-icon {
@@ -369,6 +362,82 @@ h2 {
 	padding: 12px 7px 10px 0px;
 }
 
+.footer {
+    background-color: #1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+}
+
+.footer-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-logo {
+    width: 63px;
+    height: 56px;
+}
+
+.footer-item {
+    flex: 0 0 auto;
+}
+
+.footer-item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.footer-list li {
+    margin-bottom: 9px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer-list a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.footer-list a:hover {
+	color: #FBB731;
+}
+
+.footer-item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.footer-list-tel a {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FBB731;
+    margin-top: 0;
+}
+
+.footer-list-tel a:hover {
+	color: #FFFFFF;
+}
+
+.footer-list-tel li {
+    margin-bottom: 12px;
+}
+
+.footer-list {
+	padding-left: 0;
+	margin-top: 19px;
+	margin-right: 37px;
+	list-style-type: none;
+}
 
 
 
