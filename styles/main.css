@@ -1100,19 +1100,147 @@ h2 {
 }
 
 @media (max-width: 360px) {
+
 	.header-logo {
 		width: 116px;
 		height: 37px;
 		background-size: contain;
 	}
 
+	.header-item {
+	    flex-basis: 55%;
+	}
+
+	.header-logo {
+	    width: 100px;
+	}
+
+	.header {
+	    padding: 18px 0 10px;
+	}
+
+	.banner-title {
+		font-size: 55px;
+	}
+
+	.banner-box {
+		background-position: 30% center;
+	}
+
+	.menu-select {
+		font-size: 14px;
+	}
+
+	.menu-title {
+	    font-size: 24px;
+	}
+
+	.menu-grid-cover,
+	.menu-grid-cover img {
+	    height: 210px;
+	}
+
+	.menu-grid-title {
+	    font-size: 16px;
+	}
+
+	.menu-grid-price {
+		font-size: 18px;
+	    margin-bottom: 7px;
+	}
+
+	.menu-grid-icon {
+		display: none;
+	}
+
+	.menu-grid-text {
+	    padding: 8px 7px 8px 7px;
+	}
+
+	.extra-menu {
+	    margin-top: 50px;
+	}
+
+	.extra-menu-footer {
+	    margin-bottom: 30px;
+	}
+
+	.menu-grid {
+	    gap: 12px 12px;
+	}
+
+	.menu-other .menu-grid-cover,
+	.menu-other .menu-grid-cover img {
+	    height: 210px;
+	}
+
+	.menu-other .menu-grid-btn {
+	    width: 50%;
+	}
+
+	.footer-item h2 {
+		font-size: 17px;
+	    margin-bottom: 15px;
+	}
+
+	.footer-list li {
+	    font-size: 17px;
+	}
+
+	.footer-item span {
+		margin-bottom: 6px;
+	}
+
+	.button-up {
+		font-size: 12px;
+		padding: 8px 8px;
+		border-radius: 20px;
+		bottom: 25px;
+	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: 321px) {
+
 	.banner-box {
 		background-position: 25% center;
 	}
+	.header-item {
+	    flex-basis: 48%;
+	}
 
+	.header-logo {
+	    width: 90px;
+	}
+
+	.title {
+	    font-size: 36px;
+	}
+
+	.banner-title {
+	    font-size: 50px;
+	}
+
+	.menu-select {
+	    flex-basis: 140px;
+	    padding: 6px 25px;
+	}
+
+	.menu-title {
+	    font-size: 22px;
+	}
+
+	.menu-grid-title {
+	    font-size: 14px;
+	}
+
+	.menu-grid-cover,
+	.menu-grid-cover img {
+	    height: 180px;
+	}
+
+	.footer-box {
+		gap: 25px;
+	}
 }
 
 
