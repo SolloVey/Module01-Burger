@@ -731,8 +731,7 @@ h2 {
 		
 	}
 
-	.menu-other {
-		overflow: hidden;
+	.menu-other {	
 		height: 558px;
 	}
 
@@ -938,10 +937,6 @@ h2 {
 
 	.menu-other .menu-grid-cover img {
 	    height: 280px;
-	}
-
-	.menu-other .menu-grid {
-		overflow-x: hidden;
 	}
 
 	.menu-other .menu-grid-btn {
