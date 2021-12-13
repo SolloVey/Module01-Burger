@@ -1022,6 +1022,10 @@ h2 {
 		padding: 10px 15px;
 	}
 
+	.menu-header {
+		padding-top: 20px;
+	}
+
 	.menu-select {
 		flex-basis: 180px;
 		padding: 10px 30px;
