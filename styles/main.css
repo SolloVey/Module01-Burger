@@ -278,7 +278,9 @@ h2 {
 	border-radius: 22px;
 	color: #443737;
 	font-size: 15px;
-	appearance: none;
+	-webkit-appearance: none;
+	   -moz-appearance: none;
+	        appearance: none;
 	flex-basis: 279px;
 	background-image: url(../images/arrow.svg);
 	background-size: 12.79px 7.75px;
@@ -286,7 +288,7 @@ h2 {
 	background-position: 89% center;
 	margin-bottom: -5px;
 	outline: none;
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 }
 
 .menu-grid {
@@ -312,7 +314,8 @@ h2 {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	width: 100%;
 	height: 430px;
 } 
@@ -702,77 +705,6 @@ h2 {
     top: 20px;
     right: 20px;
 }
-
-/*Responsive index*/
-
-/*@media (max-width:767px) {
-
-
-	.content {
-		flex: 0 0 411px;
-	    padding-top: 43px;
-	    padding-bottom: 122px;
-	}
-
-	.content-title {
-	    font-size: 86px;
-	    line-height: 101px;
-	}
-
-	.content-title span {
-		font-size: 22px;
-		line-height: 27px;
-		margin-bottom: 10px;
-	}
-
-	.content-text {
-		margin-top: 20px;
-		margin-bottom: 30px;
-		font-size: 14px;
-		line-height: 1.5;
-	}
-
-	.visual-bg {
-		margin-right: 2px;
-		width: 198px;
-	}
-
-	.content-link, .promo a {
-		padding: 18px 37px;
-	}
-
-	.main img {
-	    width: 500px;
-	    position: absolute;
-	    right: -137px;
-	    bottom: -85px;
-	}
-
-	.promo {
-		padding-top: 107px;
-		padding-bottom: 92px;
-	}
-
-	.wrapper {
-	    max-width: 738px;
-	}
-
-	.promo-left {
-	    padding: 44px 30px;
-	}
-
-	.promo-right {
-	    padding: 58px 31px;
-	}
-
-	.promo-right .promo-description {
-		margin-bottom: 15px;
-	}
-
-	.sale {
-		margin-bottom: 8px;
-	}
-}*/
 
 /*Responsive menu*/
 
@@ -1526,28 +1458,3 @@ h2 {
 		gap: 25px;
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
