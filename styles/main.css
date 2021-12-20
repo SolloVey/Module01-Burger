@@ -793,6 +793,10 @@ h2 {
 		padding-bottom: 50px;
 	}
 
+	.menu-other .menu-grid::-webkit-scrollbar {
+ 		 width: 0;
+}
+
 	.menu-other .menu-grid-item {
 		flex: 0 0 281px;
 	}
@@ -1021,11 +1025,12 @@ h2 {
 	}
 
 	nav {
-	    padding-right: 1%;
+	    padding-right: 5%;
+    	padding-left: 5%;
 	}
 
 	.header-nav a {
-	    font-size: 14px;
+	    font-size: 2vw;
 	}
 }
 
@@ -1301,6 +1306,10 @@ h2 {
 
 @media (max-width: 360px) {
 
+	.menu-other .menu-grid-item {
+    	flex: 0 0 138px;
+}
+
 	.content-title {
 	    font-size: 65px;
 	}
@@ -1345,7 +1354,7 @@ h2 {
 
 	.menu-grid-cover,
 	.menu-grid-cover img {
-	    height: 210px;
+	    height: 50vw;
 	}
 
 	.menu-grid-title {
@@ -1379,7 +1388,7 @@ h2 {
 
 	.menu-other .menu-grid-cover,
 	.menu-other .menu-grid-cover img {
-	    height: 210px;
+	    height: 50vw;
 	}
 
 	.menu-other .menu-grid-btn {
@@ -1400,6 +1409,7 @@ h2 {
 	}
 
 	.button-up {
+		display: none;
 		font-size: 12px;
 		padding: 8px 8px;
 		border-radius: 20px;
