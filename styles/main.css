@@ -41,6 +41,7 @@ header {
 nav {
 	padding-top: 11px;
 	padding-right: 100px;
+	padding-right: 11%;
 }
 
 .header-nav {
@@ -795,7 +796,7 @@ h2 {
 
 	.menu-other .menu-grid::-webkit-scrollbar {
  		 width: 0;
-}
+	}
 
 	.menu-other .menu-grid-item {
 		flex: 0 0 281px;
@@ -834,7 +835,7 @@ h2 {
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 783px) {
 
 	/*index*/
 	.content {
@@ -859,6 +860,10 @@ h2 {
 		margin-bottom: 30px;
 		font-size: 14px;
 		line-height: 1.5;
+	}
+
+	.header-nav a {
+	    font-size: 2vw;
 	}
 
 	.visual-bg {
@@ -912,7 +917,7 @@ h2 {
 	}
 
 	nav {
-		padding-right: 9%;
+		padding-right: 15%;
 	}
 
 	.menu {
@@ -924,12 +929,17 @@ h2 {
 	}
 
 	.menu-select {
-		flex-basis: 260px;
-		background-position: 95% center;
+		flex-basis: 279px;
+		background-position: 89% center;
 	}
 
 	.menu-grid {
-	    gap: 20px 17px;
+	    gap: 20px 10px;
+	}
+
+	.menu-grid-cover,
+	.menu-grid-cover img {
+		height: 50vw;
 	}
 
 	.extra-menu {
@@ -955,6 +965,9 @@ h2 {
 
 	.menu-other .menu-grid-item:last-child {
 		padding-right: 15px;
+	}
+
+	.button-up {display: none;
 	}
 }
 
@@ -996,14 +1009,14 @@ h2 {
 	}
 	
 	nav {
-	    padding-right: 5%;
+	    padding-right: 10%;
 	}
 }
 
 @media (max-width: 690px) {
 
 	nav {
-	    padding-right: 3%;
+	    padding-right: 14%;
 	}
 }
 
@@ -1109,7 +1122,7 @@ h2 {
 	}
 
 	.menu-grid-cover img {
-	    height: 280px;
+	    height: 50vw;
 	}
 
 	.menu-grid-title {
@@ -1122,6 +1135,8 @@ h2 {
 
 	.extra-menu {
 	    margin-top: 50px;
+	    margin-bottom: 0px;
+
 	}
 
 	.extra-menu-footer {
@@ -1129,11 +1144,11 @@ h2 {
 	}
 
 	.menu-other .menu-grid-cover {
-		height: 280px;
+		height: 50vw;
 	}
 
 	.menu-other .menu-grid-cover img {
-	    height: 280px;
+	    height: 50vw;
 	}
 
 	.menu-other .menu-grid-btn {
@@ -1216,7 +1231,7 @@ h2 {
 	}
 
 	.button {
-		gap: 15px;
+		gap: 9px;
 	}
 
 	.banner {
@@ -1306,6 +1321,15 @@ h2 {
 
 @media (max-width: 360px) {
 
+	.breadcrumbs {
+		margin-bottom: 10px;
+	}
+
+	.title {
+		margin-top: 30px;
+		margin-bottom: 11px;
+	}
+
 	.menu-other .menu-grid-item {
     	flex: 0 0 138px;
 }
@@ -1325,83 +1349,127 @@ h2 {
 	}
 
 	.header-item {
-	    flex-basis: 55%;
+	    flex-basis: 47%;
 	}
 
 	.header-logo {
-	    width: 100px;
+	    width: 116px;
 	}
 
 	.header {
-	    padding: 18px 0 10px;
+	    padding: 17px 0 17px;
 	}
 
 	.banner-title {
-		font-size: 55px;
+		font-size: 60px;
 	}
 
 	.banner-box {
 		background-position: 30% center;
 	}
 
+	.banner-title span {
+		margin-bottom: 7px;
+	}
+
+	.banner-text {
+	    padding-right: 15px;
+	}
+
+	.banner-link {
+	    padding: 18px 24px;
+	}
+
 	.menu-select {
-		font-size: 14px;
+		font-size: 13px;
+		flex-basis: 111px;
+    	padding: 13px 16px;
+    	background-position: 92% center;
 	}
 
 	.menu-title {
-	    font-size: 24px;
+	    font-size: 27px;
+	    margin-top: 7px;
+	}
+
+	.menu-header {
+	    margin-bottom: 34px;
 	}
 
 	.menu-grid-cover,
 	.menu-grid-cover img {
-	    height: 50vw;
+	    width: 41vw;
+    	height: 54vw;
 	}
 
 	.menu-grid-title {
-	    font-size: 16px;
+		font-weight: 700;
+	    font-size: 13px;
+	    margin-top: 6px;
 	}
 
 	.menu-grid-price {
 		font-size: 18px;
-	    margin-bottom: 7px;
+	    margin-bottom: 12px;
 	}
 
 	.menu-grid-icon {
-		display: none;
+		display: block;
+	}
+
+	.menu-grid-btn {
+	    width: 93%;
+	    gap: 8px;
 	}
 
 	.menu-grid-text {
-	    padding: 8px 7px 8px 7px;
+	    padding: 10px 7px 8px 0px;
 	}
 
 	.extra-menu {
-	    margin-top: 50px;
+	    margin-top: 54px;
 	}
 
 	.extra-menu-footer {
-	    margin-bottom: 30px;
+	    margin-bottom: 35px;
 	}
 
 	.menu-grid {
-	    gap: 12px 12px;
+	    gap: 15px 7px;
 	}
 
 	.menu-other .menu-grid-cover,
 	.menu-other .menu-grid-cover img {
-	    height: 50vw;
+	    height: 54vw;
 	}
 
 	.menu-other .menu-grid-btn {
-	    width: 50%;
+	    width: 93%;
+	}
+
+	.footer {
+	    padding-top: 60px;
+	    padding-bottom: 50px;
+	}
+
+	.footer-logo {
+	    width: 62px;
+	    height: 55px;
+	}
+
+	.footer-item {
+	    margin-top: 8px;
 	}
 
 	.footer-item h2 {
-		font-size: 17px;
-	    margin-bottom: 15px;
+		font-size: 18px;
+	    margin-bottom: 8px;
+	    line-height: 38px;
 	}
 
 	.footer-list li {
-	    font-size: 17px;
+	    font-size: 15px;
+	    line-height: 24px;
 	}
 
 	.footer-item span {
