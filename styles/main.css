@@ -950,6 +950,7 @@ h2 {
 
 	.footer {
 		padding-top: 65px;
+		overflow-x: hidden;
 	}
 
 	.footer-list {
