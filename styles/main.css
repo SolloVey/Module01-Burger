@@ -937,11 +937,6 @@ h2 {
 	    gap: 20px 10px;
 	}
 
-	.menu-grid-cover,
-	.menu-grid-cover img {
-		height: 50vw;
-	}
-
 	.extra-menu {
 		margin-top: 62px;
 		margin-bottom: 137px;
@@ -1062,11 +1057,11 @@ h2 {
 	}
 
 	.header-logo {
-		height: 37px;
+		height: 43px;
 	}
 
 	.header-item {
-	    flex-basis: 70%;
+	    flex-basis: 60%;
 	}
 
 	.breadcrumbs {
@@ -1126,17 +1121,20 @@ h2 {
 	}
 
 	.menu-grid-title {
-	    font-size: 20px;
+	    font-size: 18px;
 	}
 
 	.menu-grid-btn {
-		width: 60%;
+		width: 90%;
 	}
 
 	.extra-menu {
 	    margin-top: 50px;
 	    margin-bottom: 0px;
+	}
 
+	.menu-other .menu-grid-item {
+	    flex: 0 0 45%;
 	}
 
 	.extra-menu-footer {
@@ -1219,15 +1217,16 @@ h2 {
 	}
 
 	.burger {
-		width: 30px;
+		width: 34px;
+		padding-bottom: 10px;
 	}
 
 	.header-logo {
-	    height: 32px;
+	    height: 42px;
 	}
 
 	.header-item {
-	    flex-basis: 62%;
+	    flex-basis: 50%;
 	}
 
 	.button {
@@ -1276,7 +1275,7 @@ h2 {
 	}
 
 	.menu-other .menu-grid-cover img {
-	    height: 220px;
+	    height: 56vw;
 	}
 
 	.menu-grid-item {
@@ -1352,10 +1351,6 @@ h2 {
 	    flex-basis: 47%;
 	}
 
-	.header-logo {
-	    width: 116px;
-	}
-
 	.header {
 	    padding: 17px 0 17px;
 	}
@@ -1366,14 +1361,11 @@ h2 {
 
 	.banner-box {
 		background-position: 30% center;
+		padding-right: 15px;
 	}
 
 	.banner-title span {
 		margin-bottom: 7px;
-	}
-
-	.banner-text {
-	    padding-right: 15px;
 	}
 
 	.banner-link {
@@ -1500,11 +1492,11 @@ h2 {
 	}
 	.header-item {
 	    flex-basis: 48%;
-	}
+	}/*
 
 	.header-logo {
 	    width: 90px;
-	}
+	}*/
 
 	.title {
 	    font-size: 36px;
