@@ -40,7 +40,6 @@ header {
 
 nav {
 	padding-top: 11px;
-	padding-right: 100px;
 	padding-right: 11%;
 }
 
@@ -690,7 +689,8 @@ h2 {
 }
 
 .modal .header-nav a {
-	line-height: 0.2;
+	line-height: 24px;
+    font-size: 20px;
 }
 
 .burger-close {
@@ -764,7 +764,7 @@ h2 {
 	}
 
 	.header-item {
-		flex-basis: 90%;
+		flex-basis: 85%;
 	}
 
 	.bg {
@@ -773,7 +773,7 @@ h2 {
 
 	.banner-box {	
 		background-position: -80px center;
-		padding: 100px 0 120px 40px;
+		padding: 100px 368px 120px 40px;
 	}
 
 	.menu-grid {
@@ -837,7 +837,10 @@ h2 {
 
 @media (max-width: 783px) {
 
-	/*index*/
+	.header-item {
+	    flex-basis: 88%;
+	}
+
 	.content {
 		flex: 0 0 411px;
 	    padding-top: 43px;
@@ -863,7 +866,7 @@ h2 {
 	}
 
 	.header-nav a {
-	    font-size: 2vw;
+	    font-size: 20px;
 	}
 
 	.visual-bg {
@@ -906,7 +909,6 @@ h2 {
 	.sale {
 		margin-bottom: 8px;
 	}
-	/*index*/
 
 	.header-burger {
 		display: none;
@@ -917,7 +919,7 @@ h2 {
 	}
 
 	nav {
-		padding-right: 15%;
+		padding-right: 8%;
 	}
 
 	.menu {
@@ -1004,14 +1006,14 @@ h2 {
 	}
 	
 	nav {
-	    padding-right: 10%;
+	    padding-right: 6%;
 	}
 }
 
 @media (max-width: 690px) {
 
 	nav {
-	    padding-right: 14%;
+	    padding-right: 3%;
 	}
 }
 
@@ -1038,7 +1040,7 @@ h2 {
 	}
 
 	.header-nav a {
-	    font-size: 2vw;
+	    font-size: 12px;
 	}
 }
 
@@ -1200,6 +1202,10 @@ h2 {
 
 @media (max-width:429px) {
 
+	#modal {
+	    max-width: 93%;
+	}
+
 	.content-title {
 	    font-size: 75px;
 	}
@@ -1303,11 +1309,11 @@ h2 {
 	}
 
 	.footer-list li {
-    margin-bottom: 10px;
-    margin-top: 0;
-    font-size: 15px;
-    line-height: 1.2;
-}
+	    margin-bottom: 10px;
+	    margin-top: 0;
+	    font-size: 15px;
+	    line-height: 1.2;
+	}
 
 	.extra-menu .container {
 		padding-right: 0;
@@ -1320,8 +1326,16 @@ h2 {
 
 @media (max-width: 360px) {
 
+	.modal .header-nav a {
+	    line-height: 17px;
+	}
+
 	.breadcrumbs {
 		margin-bottom: 10px;
+	}
+
+	.breadcrumbs a {
+	    font-size: 14px;
 	}
 
 	.title {
@@ -1361,7 +1375,7 @@ h2 {
 
 	.banner-box {
 		background-position: 30% center;
-		padding-right: 15px;
+		padding-right: 20px;
 	}
 
 	.banner-title span {
@@ -1381,7 +1395,7 @@ h2 {
 
 	.menu-title {
 	    font-size: 27px;
-	    margin-top: 7px;
+	    margin-top: 10px;
 	}
 
 	.menu-header {
@@ -1397,11 +1411,11 @@ h2 {
 	.menu-grid-title {
 		font-weight: 700;
 	    font-size: 13px;
-	    margin-top: 6px;
+	    margin-top: 7px;
 	}
 
 	.menu-grid-price {
-		font-size: 18px;
+		font-size: 16px;
 	    margin-bottom: 12px;
 	}
 
@@ -1479,6 +1493,10 @@ h2 {
 
 @media (max-width: 321px) {
 
+	.modal .header-nav a {
+	    font-size: 19px;
+	}
+
 	.content-title {
 	    font-size: 55px;
 	}
@@ -1513,10 +1531,6 @@ h2 {
 
 	.menu-title {
 	    font-size: 22px;
-	}
-
-	.menu-grid-title {
-	    font-size: 14px;
 	}
 
 	.menu-grid-cover,
