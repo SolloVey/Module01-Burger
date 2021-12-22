@@ -709,6 +709,18 @@ h2 {
 
 /*Responsive menu*/
 
+@media (min-width: 1001px) {
+	.footer-list + .footer-list-tel {
+		display: none;
+	}
+}
+
+@media (min-width: 766px) {
+	.header-burger {
+		display: none;
+	}
+}
+
 @media (max-width: 1112px) {
 
 	.main img {
@@ -722,17 +734,7 @@ h2 {
 	}
 }
 
-@media (min-width: 1001px) {
-	.footer-list + .footer-list-tel {
-		display: none;
-	}
-}
 
-@media (min-width: 766px) {
-	.header-burger {
-		display: none;
-	}
-}
 
 @media (max-width: 1000px) {
 
@@ -773,7 +775,7 @@ h2 {
 
 	.banner-box {	
 		background-position: -80px center;
-		padding: 100px 368px 120px 40px;
+		padding: 100px 0px 120px 40px;
 	}
 
 	.menu-grid {
@@ -814,17 +816,6 @@ h2 {
 	.footer-list + .footer-list-tel {
 		display: block;
 	}
-
-	.extra-menu .container {
-		padding-right: 0;
-	}
-
-	.menu-other .menu-grid-item:last-child {
-		padding-right: 15px;
-	}
-}
-
-@media (max-width: 993px) {
 
 	.extra-menu .container {
 		padding-right: 0;
@@ -961,15 +952,8 @@ h2 {
 		margin-bottom: 20px;
 	}
 
-	.extra-menu .container {
-		padding-right: 0;
-	}
-
-	.menu-other .menu-grid-item:last-child {
-		padding-right: 15px;
-	}
-
-	.button-up {display: none;
+	.button-up {
+		display: none;
 	}
 }
 
@@ -1008,13 +992,6 @@ h2 {
 
 	.main img {
 	    display: none;
-	}
-}
-
-@media (max-width: 610px) {
-
-	.header-logo {
-	    width: 145px;
 	}
 }
 
@@ -1156,14 +1133,6 @@ h2 {
     .footer-item h2 {
 	    font-size: 18px;
 	}
-
-	.extra-menu .container {
-		padding-right: 0;
-	}
-
-	.menu-other .menu-grid-item:last-child {
-		padding-right: 15px;
-	}
 }
 
 @media (max-width:429px) {
@@ -1244,7 +1213,7 @@ h2 {
 	}
 
 	.menu-other .menu-grid-cover {
-	    height: 220px;
+	    height: 56vw;
 	}
 
 	.menu-other .menu-grid-cover img {
@@ -1280,14 +1249,6 @@ h2 {
 	    margin-top: 0;
 	    font-size: 15px;
 	    line-height: 1.2;
-	}
-
-	.extra-menu .container {
-		padding-right: 0;
-	}
-
-	.menu-other .menu-grid-item:last-child {
-		padding-right: 15px;
 	}
 }
 
@@ -1477,11 +1438,7 @@ h2 {
 	}
 	.header-item {
 	    flex-basis: 48%;
-	}/*
-
-	.header-logo {
-	    width: 90px;
-	}*/
+	}
 
 	.title {
 	    font-size: 36px;
